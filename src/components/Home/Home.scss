@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,700;1,300&display=swap');
+.background{
+  
+    height: auto;
+}
+.part1{
+    background-image: url("topImage.jpg");
+    overflow: hidden;
+    width: 100%;
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    ::selection{
+        background: #5dd469;
+    }
+    
+ }
+.upperText{
+    width: 40%;
+    text-align: left;
+    position: relative;
+    left: 3%;
+    color: #fff;
+    font-size: 130px;
+    font-family: 'Archivo Black', sans-serif;
+    opacity: 85%;
+    line-height: 78%;
+    padding-top: 0px;
+    top: 20%;
+}
+
+
+.sign1{
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    width: 5%;
+    opacity: 100%;
+    &:hover{
+        .sign2{
+            opacity: 100%;
+        }
+    }
+}
+.sign2{
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    width: 5%;
+    opacity: 0%;
+}
+.signIn{
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    width: 5%;
+    opacity: 100%;        
+    }
+
+
+
+
+
+ .lista{
+     width: 100%;
+     list-style-type: none;
+     padding-left: 0px;
+     
+ }
+
+ .table{
+     display: table;
+     margin: 0 auto;
+     margin-top: 50px;
+     float: right;
+ }
+ .li2{
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 20px;
+        display: inline;
+        padding-left: 30px;
+        margin-left: 0%;
+
+}
+.li1{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+    display: inline;
+    padding-right: 30px;
+    text-decoration: none;
+}
+.menuButtons{
+    color:black;
+    text-decoration: none;
+    &:hover{
+        color:#5dd469;
+    }
+}
+
+.part2{
+    ::selection{
+        background: #5dd469;
+    }
+    height: 480px;
+    width: 100%;
+    align-items: center;
+}
+.menuBar{
+    width: 50%;
+    list-style-type: none;
+    padding-right: 0px;
+}
+
+.paragraphsHead{
+    position: relative;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 80px;
+    letter-spacing: 3px; 
+    padding-bottom: 0%;
+    width: 100%;
+    text-align: center;
+}
+
+.aboutParagraph{
+    margin: auto;
+    position: relative;
+    font-size: 25px;
+    width: 60%;
+    text-align: center;
+    height: 0px;
+}
+
+.textAbout{
+    display: inline-table;
+    width: 100%;
+    align-items: center;
+}
